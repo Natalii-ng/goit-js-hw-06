@@ -1,10 +1,10 @@
 const navLiEl = document.querySelectorAll('.item');
 console.log('Number of categories:', navLiEl.length);
-const LiTitleEl = document.querySelectorAll('.item h2');
-const UlTitleEl = document.querySelectorAll('.item ul');
-console.log('Category:', LiTitleEl[0].textContent);
-console.log('Elements', UlTitleEl[0].children.length);
-console.log('Category:', LiTitleEl[1].textContent);
-console.log('Elements', UlTitleEl[1].children.length);
-console.log('Category:', LiTitleEl[2].textContent);
-console.log('Elements', UlTitleEl[2].children.length);
+const liTitleEl = document.querySelectorAll('.item h2');
+const ulTitleEl = document.querySelectorAll('.item ul');
+console.log('Category:', liTitleEl[0].textContent);
+console.log('Elements', ulTitleEl[0].children.length);
+console.log('Category:', liTitleEl[1].textContent);
+console.log('Elements', ulTitleEl[1].children.length);
+console.log('Category:', liTitleEl[2].textContent);
+console.log('Elements', ulTitleEl[2].children.length);
